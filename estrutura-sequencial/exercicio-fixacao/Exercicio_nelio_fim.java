@@ -24,6 +24,8 @@ public class Exercicio_nelio_fim {
 		System.out.println();
 		System.out.printf("Measue with eight decimal places: %.8f%n", measure);
 		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
+// Exercício: demonstrar a diferença entre o formato decimal padrão e o formato US.
+// O Locale.US é definido aqui de propósito para afetar apenas esta última saída.
 		Locale.setDefault(Locale.US);
 		System.out.printf("US decimal point: %.3f%n", measure);
 	}
